@@ -1,9 +1,0 @@
-# Ignore dependencies folder
-node_modules/
-
-# Ignore top-level package files if you don't want to track them
-/package-lock.json
-/package.json
-
-# Ignore remwaste/node_modules if it exists
-/remwaste/node_modules/
