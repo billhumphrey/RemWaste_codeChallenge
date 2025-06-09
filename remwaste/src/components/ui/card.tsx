@@ -1,16 +1,23 @@
-import React, { ReactNode } from 'react';
+// src/components/ui/card.tsx
+import React from 'react';
+import clsx from 'clsx';
 
-interface CardProps {
-  children: ReactNode;
-  className?: string;
-}
+export const Card: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
+  className,
+  children,
+  ...props
+}) => (
+  <div className={clsx('rounded-lg shadow-sm bg-white', className)} {...props}>
+    {children}
+  </div>
+);
 
-export default function Card({ children, className = '' }: CardProps) {
-  return (
-    <div
-      className={`bg-white shadow-md rounded-lg p-6 border border-gray-200 ${className}`}
-    >
-      {children}
-    </div>
-  );
-}
+export const CardContent: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
+  className,
+  children,
+  ...props
+}) => (
+  <div className={clsx('p-4', className)} {...props}>
+    {children}
+  </div>
+);

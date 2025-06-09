@@ -1,4 +1,4 @@
-// File: src/components/ui/button.tsx
+// src/components/ui/button.tsx
 import React from 'react';
 import clsx from 'clsx';
 
@@ -12,8 +12,7 @@ export const Button: React.FC<ButtonProps> = ({
   variant = 'primary',
   ...props
 }) => {
-  const baseStyle =
-    'px-4 py-2 rounded-lg font-medium transition-colors duration-200 focus:outline-none';
+  const baseStyle = 'px-4 py-2 rounded-md font-medium transition duration-200 focus:outline-none';
 
   const variants = {
     primary: 'bg-blue-600 text-white hover:bg-blue-700',
