@@ -1,5 +1,5 @@
 import React from 'react';
-import SkipSelector from './pages/SkipSelectionPage'; // adjust path if needed
+import SkipSelector from './pages/SkipSelectionPage';
 
 function App() {
   return (
