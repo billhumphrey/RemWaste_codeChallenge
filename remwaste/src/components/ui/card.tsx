@@ -1,4 +1,3 @@
-// src/components/ui/card.tsx
 import React from 'react';
 import clsx from 'clsx';
 

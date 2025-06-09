@@ -1,4 +1,3 @@
-// src/components/SkipCard.tsx
 import React from 'react';
 import { Button } from './button';
 import { Card, CardContent } from './card';
