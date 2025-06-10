@@ -13,4 +13,4 @@
 
 ![image](https://github.com/user-attachments/assets/7e3588f2-3e82-4f45-96d6-189963b1d802)
 
-Or this is the live link to access:   https://rem-waste-code-challenge-azrj.vercel.app/
+Or follow the live link to access:   https://rem-waste-code-challenge-azrj.vercel.app/
